@@ -2,7 +2,7 @@ venv/
 
 .env
 
-data/*.csv
+*.csv
 
 **/__pycache__/
 
