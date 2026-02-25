@@ -29,7 +29,7 @@ def get_yield_curve(yield_data, target_date, country, k=2):
 ########################################################
 ### Part 3: Rest API Endpoints
 ########################################################
-yield_data = pd.read_csv('../data/yield_data.csv') # Read in data from store
+yield_data = pd.read_csv('yield_data.csv') # Read in data from store
 yield_data['date'] = pd.to_datetime(yield_data['date']) # Ensure it is datetime
 
 # Set up API

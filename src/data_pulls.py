@@ -164,7 +164,7 @@ def main():
     combined_df = pd.concat([fred_data, boe_data])
 
     # Store data as csv in data folder
-    combined_df.to_csv('../data/yield_data.csv', index=False)
+    combined_df.to_csv('yield_data.csv', index=False)
 
 if __name__ == "__main__":
     main()
